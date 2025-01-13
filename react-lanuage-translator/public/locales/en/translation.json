@@ -71,6 +71,9 @@
             {
                 "title": "Sustainability Commitment",
                 "content": "We are dedicated to sustainability and minimizing our environmental impact. By using this app, you contribute to reducing paper waste and promoting eco-friendly digital solutions."
+            },
+            {   "title": "Github integration on lokalise",
+                "content": "Lokalise provide the integration setups with github to auto sync the chnages and generate translation files"
             }
         ]
     }
