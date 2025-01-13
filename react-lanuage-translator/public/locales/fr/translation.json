@@ -71,6 +71,10 @@
             {
                 "title": "Engagement en faveur du développement durable",
                 "content": "Nous nous engageons à respecter le développement durable et à minimiser notre impact environnemental. En utilisant cette application, vous contribuez à réduire le gaspillage de papier et à promouvoir des solutions numériques respectueuses de l'environnement."
+            },
+            {
+                "title": "Intégration Github sur lokalise",
+                "content": "Lokalise fournit les configurations d'intégration avec github pour synchroniser automatiquement les modifications et générer des fichiers de traduction"
             }
         ]
     }

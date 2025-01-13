@@ -71,6 +71,10 @@
             {
                 "title": "Nachhaltigkeitsverpflichtung",
                 "content": "Wir setzen uns für Nachhaltigkeit und die Minimierung unserer Umweltauswirkungen ein. Durch die Nutzung dieser App tragen Sie dazu bei, Papiermüll zu reduzieren und umweltfreundliche digitale Lösungen zu fördern."
+            },
+            {
+                "title": "Github-Integration auf Lokalise",
+                "content": "Lokalise stellt die Integrations-Setups mit GitHub bereit, um die Änderungen automatisch zu synchronisieren und Übersetzungsdateien zu generieren"
             }
         ]
     }
