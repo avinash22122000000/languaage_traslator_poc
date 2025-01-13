@@ -1,0 +1,107 @@
+{
+    "welcome_header": "Bonjour le monde !",
+    "welcome": "Bienvenue",
+    "submit": "Soumettre",
+    "language": "Langue",
+    "translation_demo_86": "Anglais",
+    "new key": "Nouvelle clé",
+    "thank you": "Merci",
+    "main": {
+        "header": "Bienvenue sur l'application !",
+        "description": "Voici la description de l'application ici.",
+        "select.options": {
+            "en": {
+                "value": "Anglais",
+                "description": "Sélectionnez cette option pour la langue anglaise."
+            },
+            "fr": {
+                "value": "Français",
+                "description": "Sélectionnez cette option pour la langue française."
+            },
+            "es": {
+                "value": "Espagnol",
+                "description": "Sélectionnez cette option pour le langage espagnol."
+            },
+            "de": {
+                "value": "Allemand",
+                "description": "Sélectionnez cette option pour la langue allemande."
+            },
+            "it": {
+                "value": "italien",
+                "description": "Sélectionnez cette option pour la langue italienne."
+            }
+        },
+        "informative.paragraphs": [
+            {
+                "title": "À propos de l'application",
+                "content": "Cette application est conçue pour simplifier votre flux de travail et améliorer votre productivité grâce à sa conception intuitive et ses fonctionnalités robustes."
+            },
+            {
+                "title": "Commencer",
+                "content": "Pour commencer, sélectionnez votre langue préférée, explorez les options et familiarisez-vous avec l'interface."
+            },
+            {
+                "title": "Besoin d'aide?",
+                "content": "Si vous rencontrez des problèmes ou avez des questions, veuillez visiter notre centre d'aide ou contacter le support."
+            },
+            {
+                "title": "Fonctionnalités avancées",
+                "content": "Notre application comprend des fonctionnalités avancées telles que l'analyse des données, les mises à jour en temps réel et l'intégration avec des outils tiers populaires. Vous pouvez exploiter ces fonctionnalités pour obtenir des informations plus approfondies, automatiser les tâches de routine et collaborer efficacement avec votre équipe."
+            },
+            {
+                "title": "Sécurité et confidentialité",
+                "content": "Nous accordons la priorité à votre sécurité et à votre confidentialité. Notre application utilise un cryptage de bout en bout, des protocoles de connexion sécurisés et des politiques strictes de protection des données pour garantir la sécurité et la confidentialité de vos informations."
+            },
+            {
+                "title": "Options de personnalisation",
+                "content": "L'application propose de nombreuses options de personnalisation, vous permettant d'adapter l'interface, les notifications et les fonctionnalités à vos besoins spécifiques. Personnalisez votre expérience pour une efficacité maximale."
+            },
+            {
+                "title": "Optimisation des performances",
+                "content": "Notre application est optimisée pour les performances, garantissant des temps de chargement rapides, une navigation fluide et une consommation de ressources minimale. Profitez d'une expérience fluide, que vous soyez sur un ordinateur de bureau ou un appareil mobile."
+            },
+            {
+                "title": "Mises à jour futures",
+                "content": "Nous nous engageons à améliorer continuellement l'application. Attendez-vous à des mises à jour régulières qui apportent de nouvelles fonctionnalités, améliorent celles existantes et résolvent d'éventuels problèmes. Vos commentaires jouent un rôle crucial dans l'élaboration des prochaines versions."
+            },
+            {
+                "title": "Communauté et soutien",
+                "content": "Rejoignez notre communauté grandissante d'utilisateurs pour partager des conseils, poser des questions et collaborer sur des solutions innovantes. Notre équipe d'assistance est toujours prête à vous aider pour toute question ou tout défi auquel vous pourriez être confronté."
+            },
+            {
+                "title": "Engagement en faveur du développement durable",
+                "content": "Nous nous engageons à respecter le développement durable et à minimiser notre impact environnemental. En utilisant cette application, vous contribuez à réduire le gaspillage de papier et à promouvoir des solutions numériques respectueuses de l'environnement."
+            },
+            {
+                "title": "Intégration Github sur lokalise",
+                "content": "Lokalise fournit les configurations d'intégration avec github pour synchroniser automatiquement les modifications et générer des fichiers de traduction"
+            }
+        ]
+    },
+    "country": {
+        "label": "",
+        "description": "",
+        "options": [
+            {
+                "value": "",
+                "label": ""
+            },
+            {
+                "value": "",
+                "label": ""
+            },
+            {
+                "value": "",
+                "label": ""
+            },
+            {
+                "value": "",
+                "label": ""
+            },
+            {
+                "value": "",
+                "label": ""
+            }
+        ]
+    }
+}
