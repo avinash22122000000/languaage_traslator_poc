@@ -26,9 +26,9 @@
                 "value": "Alemán",
                 "description": "Wählen Sie this Option for die deutsche Sprache."
             },
-            "it": {
-                "value": "italiano",
-                "description": "Seleccione estas opciones para la lengua italiana."
+            "hi_IN": {
+                "value": "",
+                "description": ""
             }
         },
         "informative.paragraphs": [
@@ -76,6 +76,46 @@
                 "title": "Integración de Github en lokalise",
                 "content": "Lokalise proporciona las configuraciones de integración con Github para sincronizar automáticamente los cambios y generar archivos de traducción."
             }
-        ]
+        ],
+        "form.fields": {
+            "name": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "email": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "password": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "age": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "gender": {
+                "label": "",
+                "description": "",
+                "options": [
+                    {
+                        "value": "",
+                        "label": ""
+                    },
+                    {
+                        "value": "",
+                        "label": ""
+                    },
+                    {
+                        "value": "",
+                        "label": ""
+                    }
+                ]
+            }
+        }
     }
 }
