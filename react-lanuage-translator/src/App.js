@@ -50,6 +50,40 @@ function App() {
         ))}
       </ul>
 
+      <form>
+        <div>
+          <label for="name">{t("main.form.fields.name.label")}</label>
+          <input
+            type="text"
+            id="name"
+            placeholder={t("main.form.fields.name.placeholder")}
+          />
+          <p>{t("main.form.fields.name.description")}</p>
+        </div>
+        <div>
+          <label for="email">{t("main.form.fields.email.label")}</label>
+          <input
+            type="email"
+            id="email"
+            placeholder={t("main.form.fields.email.placeholder")}
+          />
+          <p>{t("main.form.fields.email.description")}</p>
+        </div>
+        <div>
+          <label for="gender">{t("main.form.fields.gender.label")}</label>
+          <select id="gender">
+            {t("main.form.fields.gender.options", { returnObjects: true }).map(
+              (option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              )
+            )}
+          </select>
+          <p>{t("main.form.fields.gender.description")}</p>
+        </div>
+      </form>
+
       <h3>Informative Paragraphs:</h3>
       <div>
         {t("main.informative.paragraphs", { returnObjects: true }).map(
