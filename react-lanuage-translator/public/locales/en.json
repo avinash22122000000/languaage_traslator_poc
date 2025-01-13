@@ -1,0 +1,13 @@
+{
+    "welcome_header": "Hello world!",
+    "welcome": "Welcome",
+    "submit": "Submit",
+    "language": "Language",
+    "translation_demo_86": "English",
+    "new key": "New key",
+    "thank you": "Thank you",
+    "main": {
+        "header": "Welcome to the app!",
+        "main.description": "This is the app descripton here."
+    }
+}
