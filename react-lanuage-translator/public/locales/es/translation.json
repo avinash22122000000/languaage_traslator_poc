@@ -1,0 +1,121 @@
+{
+    "welcome_header": "",
+    "welcome": "",
+    "submit": "",
+    "language": "",
+    "translation_demo_86": "",
+    "new key": "",
+    "thank you": "",
+    "main": {
+        "header": "",
+        "description": "Esta es la descripción de la aplicación aquí.",
+        "select.options": {
+            "en": {
+                "value": "Inglés",
+                "description": "Seleccione esta opción para el idioma inglés."
+            },
+            "fr": {
+                "value": "Francés",
+                "description": "Seleccione esta opción para la lengua francesa."
+            },
+            "es": {
+                "value": "Español",
+                "description": "Seleccione esta opción para el idioma español."
+            },
+            "de": {
+                "value": "Alemán",
+                "description": "Wählen Sie this Option for die deutsche Sprache."
+            },
+            "hi_IN": {
+                "value": "",
+                "description": ""
+            }
+        },
+        "informative.paragraphs": [
+            {
+                "title": "Acerca de la aplicación",
+                "content": "Esta aplicación está diseñada para simplificar su flujo de trabajo y mejorar la productividad con su diseño intuitivo y funciones sólidas."
+            },
+            {
+                "title": "Empezando",
+                "content": "Para comenzar, seleccione su idioma preferido, explore las opciones y familiarícese con la interfaz."
+            },
+            {
+                "title": "¿Necesitar ayuda?",
+                "content": "Si encuentra algún problema o tiene preguntas, visite nuestro Centro de ayuda o comuníquese con soporte."
+            },
+            {
+                "title": "Funciones avanzadas",
+                "content": "Nuestra aplicación incluye funciones avanzadas como análisis de datos, actualizaciones en tiempo real e integración con herramientas populares de terceros. Puede aprovechar estas funciones para obtener información más detallada, automatizar tareas rutinarias y colaborar de manera eficaz con su equipo."
+            },
+            {
+                "title": "Seguridad y privacidad",
+                "content": "Priorizamos su seguridad y privacidad. Nuestra aplicación emplea encriptación de extremo a extremo, protocolos de inicio de sesión seguros y estrictas políticas de protección de datos para garantizar que su información permanezca segura y confidencial."
+            },
+            {
+                "title": "Opciones de personalización",
+                "content": "La aplicación ofrece amplias opciones de personalización que le permiten adaptar la interfaz, las notificaciones y la funcionalidad a sus necesidades específicas. Personalice su experiencia para lograr la máxima eficiencia."
+            },
+            {
+                "title": "Optimización del rendimiento",
+                "content": "Nuestra aplicación está optimizada para un mejor rendimiento, lo que garantiza tiempos de carga rápidos, una navegación fluida y un consumo mínimo de recursos. Disfruta de una experiencia perfecta tanto en una computadora de escritorio como en un dispositivo móvil."
+            },
+            {
+                "title": "Actualizaciones futuras",
+                "content": "Nos comprometemos a mejorar la aplicación de forma continua. Esperamos recibir actualizaciones periódicas que aporten nuevas funciones, mejoren las existentes y solucionen posibles problemas. Tus comentarios desempeñan un papel fundamental a la hora de diseñar futuras versiones."
+            },
+            {
+                "title": "Comunidad y apoyo",
+                "content": "Únase a nuestra creciente comunidad de usuarios para compartir consejos, hacer preguntas y colaborar en soluciones innovadoras. Nuestro equipo de soporte está siempre listo para ayudarlo con cualquier consulta o desafío que pueda enfrentar."
+            },
+            {
+                "title": "Compromiso de sostenibilidad",
+                "content": "Nos dedicamos a la sostenibilidad y a minimizar nuestro impacto ambiental. Al usar esta aplicación, contribuyes a reducir el desperdicio de papel y a promover soluciones digitales ecológicas."
+            },
+            {
+                "title": "Integración de Github en lokalise",
+                "content": "Lokalise proporciona las configuraciones de integración con Github para sincronizar automáticamente los cambios y generar archivos de traducción."
+            }
+        ],
+        "form.fields": {
+            "name": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "email": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "password": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "age": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "gender": {
+                "label": "",
+                "description": "",
+                "options": [
+                    {
+                        "value": "",
+                        "label": ""
+                    },
+                    {
+                        "value": "",
+                        "label": ""
+                    },
+                    {
+                        "value": "",
+                        "label": ""
+                    }
+                ]
+            }
+        }
+    }
+}
