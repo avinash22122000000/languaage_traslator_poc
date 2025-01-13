@@ -1,121 +1,81 @@
 {
-    "welcome_header": "Hallo Welt!",
-    "welcome": "Willkommen",
-    "submit": "Einreichen",
-    "language": "Sprache",
-    "translation_demo_86": "Englisch",
-    "new key": "Neuer Schlüssel",
-    "thank you": "Danke",
-    "main": {
-        "header": "Willkommen in der App!",
-        "description": "Dies hier ist die App-Beschreibung.",
-        "select.options": {
-            "en": {
-                "value": "Englisch",
-                "description": "Wählen Sie diese Option für die englische Sprache."
-            },
-            "fr": {
-                "value": "Französisch",
-                "description": "Wählen Sie diese Option für die französische Sprache."
-            },
-            "es": {
-                "value": "Spanisch",
-                "description": "Wählen Sie diese Option für die spanische Sprache."
-            },
-            "de": {
-                "value": "Deutsch",
-                "description": "Wählen Sie diese Option für die deutsche Sprache."
-            },
-            "hi_IN": {
-                "value": "",
-                "description": ""
-            }
-        },
-        "informative.paragraphs": [
-            {
-                "title": "Über die App",
-                "content": "Diese Anwendung soll mit ihrem intuitiven Design und ihren robusten Funktionen Ihren Arbeitsablauf vereinfachen und die Produktivität steigern."
-            },
-            {
-                "title": "Erste Schritte",
-                "content": "Wählen Sie zunächst Ihre bevorzugte Sprache aus, erkunden Sie die Optionen und machen Sie sich mit der Benutzeroberfläche vertraut."
-            },
-            {
-                "title": "Benötigen Sie Hilfe?",
-                "content": "Wenn Sie auf Probleme stoßen oder Fragen haben, besuchen Sie bitte unser Hilfe-Center oder wenden Sie sich an den Support."
-            },
-            {
-                "title": "Erweiterte Funktionen",
-                "content": "Unsere App enthält erweiterte Funktionen wie Datenanalyse, Echtzeit-Updates und Integration mit beliebten Tools von Drittanbietern. Sie können diese Funktionen nutzen, um tiefere Einblicke zu gewinnen, Routineaufgaben zu automatisieren und effektiv mit Ihrem Team zusammenzuarbeiten."
-            },
-            {
-                "title": "Sicherheit und Datenschutz",
-                "content": "Ihre Sicherheit und Privatsphäre haben für uns oberste Priorität. Unsere Anwendung verwendet End-to-End-Verschlüsselung, sichere Anmeldeprotokolle und strenge Datenschutzrichtlinien, um sicherzustellen, dass Ihre Informationen sicher und vertraulich bleiben."
-            },
-            {
-                "title": "Anpassungsoptionen",
-                "content": "Die App bietet umfangreiche Anpassungsoptionen, mit denen Sie die Benutzeroberfläche, Benachrichtigungen und Funktionen an Ihre spezifischen Anforderungen anpassen können. Personalisieren Sie Ihr Erlebnis für maximale Effizienz."
-            },
-            {
-                "title": "Leistungsoptimierung",
-                "content": "Unsere App ist auf Leistung optimiert und gewährleistet schnelle Ladezeiten, reibungslose Navigation und minimalen Ressourcenverbrauch. Genießen Sie ein nahtloses Erlebnis, egal ob Sie an einem Desktop oder einem Mobilgerät arbeiten."
-            },
-            {
-                "title": "Zukünftige Updates",
-                "content": "Wir sind bestrebt, die App kontinuierlich zu verbessern. Freuen Sie sich auf regelmäßige Updates, die neue Funktionen bringen, bestehende verbessern und mögliche Probleme beheben. Ihr Feedback spielt bei der Gestaltung zukünftiger Versionen eine entscheidende Rolle."
-            },
-            {
-                "title": "Community und Support",
-                "content": "Treten Sie unserer wachsenden Benutzer-Community bei, um Tipps auszutauschen, Fragen zu stellen und gemeinsam an innovativen Lösungen zu arbeiten. Unser Support-Team steht Ihnen bei allen Fragen und Herausforderungen jederzeit zur Seite."
-            },
-            {
-                "title": "Nachhaltigkeitsverpflichtung",
-                "content": "Wir setzen uns für Nachhaltigkeit und die Minimierung unserer Umweltauswirkungen ein. Durch die Nutzung dieser App tragen Sie dazu bei, Papiermüll zu reduzieren und umweltfreundliche digitale Lösungen zu fördern."
-            },
-            {
-                "title": "Github-Integration auf Lokalise",
-                "content": "Lokalise stellt die Integrations-Setups mit GitHub bereit, um die Änderungen automatisch zu synchronisieren und Übersetzungsdateien zu generieren"
-            }
-        ],
-        "form": {
-            "name": {
-                "label": "",
-                "placeholder": "",
-                "description": ""
-            },
-            "email": {
-                "label": "",
-                "placeholder": "",
-                "description": ""
-            },
-            "password": {
-                "label": "",
-                "placeholder": "",
-                "description": ""
-            },
-            "age": {
-                "label": "",
-                "placeholder": "",
-                "description": ""
-            },
-            "gender": {
-                "label": "",
-                "description": "",
-                "options": [
-                    {
-                        "value": "",
-                        "label": ""
-                    },
-                    {
-                        "value": "",
-                        "label": ""
-                    },
-                    {
-                        "value": "",
-                        "label": ""
-                    }
-                ]
-            }
-        }
-    }
+  "welcome_header": "Hallo Welt!",
+  "welcome": "Willkommen",
+  "submit": "Einreichen",
+  "language": "Sprache",
+  "translation_demo_86": "Englisch",
+  "new key": "Neuer Schlüssel",
+  "thank you": "Danke",
+  "main": {
+    "header": "Willkommen in der App!",
+    "description": "Dies hier ist die App-Beschreibung.",
+    "select.options": {
+      "en": {
+        "value": "Englisch",
+        "description": "Wählen Sie diese Option für die englische Sprache."
+      },
+      "fr": {
+        "value": "Französisch",
+        "description": "Wählen Sie diese Option für die französische Sprache."
+      },
+      "es": {
+        "value": "Spanisch",
+        "description": "Wählen Sie diese Option für die spanische Sprache."
+      },
+      "de": {
+        "value": "Deutsch",
+        "description": "Wählen Sie diese Option für die deutsche Sprache."
+      },
+      "hi_IN": {
+        "value": "",
+        "description": ""
+      }
+    },
+    "informative.paragraphs": [
+      {
+        "title": "Über die App",
+        "content": "Diese Anwendung soll mit ihrem intuitiven Design und ihren robusten Funktionen Ihren Arbeitsablauf vereinfachen und die Produktivität steigern."
+      },
+      {
+        "title": "Erste Schritte",
+        "content": "Wählen Sie zunächst Ihre bevorzugte Sprache aus, erkunden Sie die Optionen und machen Sie sich mit der Benutzeroberfläche vertraut."
+      },
+      {
+        "title": "Benötigen Sie Hilfe?",
+        "content": "Wenn Sie auf Probleme stoßen oder Fragen haben, besuchen Sie bitte unser Hilfe-Center oder wenden Sie sich an den Support."
+      },
+      {
+        "title": "Erweiterte Funktionen",
+        "content": "Unsere App enthält erweiterte Funktionen wie Datenanalyse, Echtzeit-Updates und Integration mit beliebten Tools von Drittanbietern. Sie können diese Funktionen nutzen, um tiefere Einblicke zu gewinnen, Routineaufgaben zu automatisieren und effektiv mit Ihrem Team zusammenzuarbeiten."
+      },
+      {
+        "title": "Sicherheit und Datenschutz",
+        "content": "Ihre Sicherheit und Privatsphäre haben für uns oberste Priorität. Unsere Anwendung verwendet End-to-End-Verschlüsselung, sichere Anmeldeprotokolle und strenge Datenschutzrichtlinien, um sicherzustellen, dass Ihre Informationen sicher und vertraulich bleiben."
+      },
+      {
+        "title": "Anpassungsoptionen",
+        "content": "Die App bietet umfangreiche Anpassungsoptionen, mit denen Sie die Benutzeroberfläche, Benachrichtigungen und Funktionen an Ihre spezifischen Anforderungen anpassen können. Personalisieren Sie Ihr Erlebnis für maximale Effizienz."
+      },
+      {
+        "title": "Leistungsoptimierung",
+        "content": "Unsere App ist auf Leistung optimiert und gewährleistet schnelle Ladezeiten, reibungslose Navigation und minimalen Ressourcenverbrauch. Genießen Sie ein nahtloses Erlebnis, egal ob Sie an einem Desktop oder einem Mobilgerät arbeiten."
+      },
+      {
+        "title": "Zukünftige Updates",
+        "content": "Wir sind bestrebt, die App kontinuierlich zu verbessern. Freuen Sie sich auf regelmäßige Updates, die neue Funktionen bringen, bestehende verbessern und mögliche Probleme beheben. Ihr Feedback spielt bei der Gestaltung zukünftiger Versionen eine entscheidende Rolle."
+      },
+      {
+        "title": "Community und Support",
+        "content": "Treten Sie unserer wachsenden Benutzer-Community bei, um Tipps auszutauschen, Fragen zu stellen und gemeinsam an innovativen Lösungen zu arbeiten. Unser Support-Team steht Ihnen bei allen Fragen und Herausforderungen jederzeit zur Seite."
+      },
+      {
+        "title": "Nachhaltigkeitsverpflichtung",
+        "content": "Wir setzen uns für Nachhaltigkeit und die Minimierung unserer Umweltauswirkungen ein. Durch die Nutzung dieser App tragen Sie dazu bei, Papiermüll zu reduzieren und umweltfreundliche digitale Lösungen zu fördern."
+      },
+      {
+        "title": "Github-Integration auf Lokalise",
+        "content": "Lokalise stellt die Integrations-Setups mit GitHub bereit, um die Änderungen automatisch zu synchronisieren und Übersetzungsdateien zu generieren"
+      }
+    ]
+  }
 }
