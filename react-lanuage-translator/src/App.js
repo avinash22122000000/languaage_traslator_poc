@@ -9,7 +9,6 @@ function App() {
     de: { title: "German" },
     fr: { title: "French" },
     es: { title: "Spanish" },
-    hi_IN: { title: "Hindi" },
   };
 
   const { t, i18n } = useTranslation();
@@ -49,40 +48,6 @@ function App() {
           </li>
         ))}
       </ul>
-
-      <form>
-        <div>
-          <label for="name">{t("main.form.name.label")}</label>
-          <input
-            type="text"
-            id="name"
-            placeholder={t("main.form.name.placeholder")}
-          />
-          <p>{t("main.form.name.description")}</p>
-        </div>
-        <div>
-          <label for="email">{t("main.form.email.label")}</label>
-          <input
-            type="email"
-            id="email"
-            placeholder={t("main.form.email.placeholder")}
-          />
-          <p>{t("main.form.email.description")}</p>
-        </div>
-        <div>
-          <label for="gender">{t("main.form.gender.label")}</label>
-          <select id="gender">
-            {t("main.form.gender.options", { returnObjects: true }).map(
-              (option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              )
-            )}
-          </select>
-          <p>{t("main.form.gender.description")}</p>
-        </div>
-      </form>
 
       <h3>Informative Paragraphs:</h3>
       <div>
