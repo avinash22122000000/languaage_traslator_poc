@@ -76,6 +76,46 @@
         "title": "Github integration on lokalise",
         "content": "Lokalise provide the integration setups with github to auto sync the chnages and generate translation files"
       }
-    ]
+    ],
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your full name",
+        "description": "Please provide your full name as it appears on your ID."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email address",
+        "description": "We'll use this email to send you updates and notifications."
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter a secure password",
+        "description": "Choose a strong password with at least 8 characters."
+      },
+      "age": {
+        "label": "Age",
+        "placeholder": "Enter your age",
+        "description": "Your age helps us provide tailored recommendations."
+      },
+      "gender": {
+        "label": "Gender",
+        "description": "Select your gender from the options below.",
+        "options": [
+          {
+            "value": "male",
+            "label": "Male"
+          },
+          {
+            "value": "female",
+            "label": "Female"
+          },
+          {
+            "value": "other",
+            "label": "Other"
+          }
+        ]
+      }
+    }
   }
 }
