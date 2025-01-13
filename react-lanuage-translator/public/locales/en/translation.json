@@ -1,81 +1,112 @@
 {
-    "welcome_header": "Hello world!",
-    "welcome": "Welcome",
-    "submit": "Submit",
-    "language": "Language",
-    "translation_demo_86": "English",
-    "new key": "New key",
-    "thank you": "Thank you",
-    "main": {
-        "header": "Welcome to the app!",
-        "description": "This is the app description here.",
-        "select.options": {
-            "en": {
-                "value": "English",
-                "description": "Select this option for English language."
-            },
-            "fr": {
-                "value": "French",
-                "description": "Sélectionnez cette option pour la langue française."
-            },
-            "es": {
-                "value": "Spanish",
-                "description": "Seleccione esta opción para el idioma español."
-            },
-            "de": {
-                "value": "German",
-                "description": "Wählen Sie diese Option für die deutsche Sprache."
-            },
-            "it": {
-                "value": "Italian",
-                "description": "Seleziona questa opzione per la lingua italiana."
-            }
-        },
-        "informative.paragraphs": [
-            {
-                "title": "About the App",
-                "content": "This application is designed to simplify your workflow and enhance productivity with its intuitive design and robust features."
-            },
-            {
-                "title": "Getting Started",
-                "content": "To get started, select your preferred language, explore the options, and familiarize yourself with the interface."
-            },
-            {
-                "title": "Need Help?",
-                "content": "If you encounter any issues or have questions, please visit our Help Center or contact support."
-            },
-            {
-                "title": "Advanced Features",
-                "content": "Our app includes advanced features like data analytics, real-time updates, and integration with popular third-party tools. You can leverage these features to gain deeper insights, automate routine tasks, and collaborate effectively with your team."
-            },
-            {
-                "title": "Security and Privacy",
-                "content": "We prioritize your security and privacy. Our application employs end-to-end encryption, secure login protocols, and strict data protection policies to ensure your information remains safe and confidential."
-            },
-            {
-                "title": "Customization Options",
-                "content": "The app offers extensive customization options, allowing you to tailor the interface, notifications, and functionality to suit your specific needs. Personalize your experience for maximum efficiency."
-            },
-            {
-                "title": "Performance Optimization",
-                "content": "Our app is optimized for performance, ensuring quick load times, smooth navigation, and minimal resource consumption. Enjoy a seamless experience whether you're on a desktop or a mobile device."
-            },
-            {
-                "title": "Future Updates",
-                "content": "We are committed to continually improving the app. Expect regular updates that bring new features, enhance existing ones, and address any potential issues. Your feedback plays a crucial role in shaping future releases."
-            },
-            {
-                "title": "Community and Support",
-                "content": "Join our growing community of users to share tips, ask questions, and collaborate on innovative solutions. Our support team is always ready to assist you with any queries or challenges you might face."
-            },
-            {
-                "title": "Sustainability Commitment",
-                "content": "We are dedicated to sustainability and minimizing our environmental impact. By using this app, you contribute to reducing paper waste and promoting eco-friendly digital solutions."
-            },
-            {
-                "title": "Github integration on lokalise",
-                "content": "Lokalise provide the integration setups with github to auto sync the chnages and generate translation files"
-            }
+  "welcome_header": "Hello world!",
+  "welcome": "Welcome",
+  "submit": "Submit",
+  "language": "Language",
+  "translation_demo_86": "English",
+  "new key": "New key",
+  "thank you": "Thank you",
+  "main": {
+    "header": "Welcome to the app!",
+    "description": "This is the app description here.",
+    "select.options": {
+      "en": {
+        "value": "English",
+        "description": "Select this option for English language."
+      },
+      "fr": {
+        "value": "French",
+        "description": "Sélectionnez cette option pour la langue française."
+      },
+      "es": {
+        "value": "Spanish",
+        "description": "Seleccione esta opción para el idioma español."
+      },
+      "de": {
+        "value": "German",
+        "description": "Wählen Sie diese Option für die deutsche Sprache."
+      },
+      "hi_IN": {
+        "value": "Hindi",
+        "description": "Seleziona questa opzione per la lingua hindi."
+      }
+    },
+    "form.fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your full name",
+        "description": "Please provide your full name as it appears on your ID."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email address",
+        "description": "We'll use this email to send you updates and notifications."
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter a secure password",
+        "description": "Choose a strong password with at least 8 characters."
+      },
+      "age": {
+        "label": "Age",
+        "placeholder": "Enter your age",
+        "description": "Your age helps us provide tailored recommendations."
+      },
+      "gender": {
+        "label": "Gender",
+        "description": "Select your gender from the options below.",
+        "options": [
+          { "value": "male", "label": "Male" },
+          { "value": "female", "label": "Female" },
+          { "value": "other", "label": "Other" }
         ]
-    }
+      }
+    },
+    "informative.paragraphs": [
+      {
+        "title": "About the App",
+        "content": "This application is designed to simplify your workflow and enhance productivity with its intuitive design and robust features."
+      },
+      {
+        "title": "Getting Started",
+        "content": "To get started, select your preferred language, explore the options, and familiarize yourself with the interface."
+      },
+      {
+        "title": "Need Help?",
+        "content": "If you encounter any issues or have questions, please visit our Help Center or contact support."
+      },
+      {
+        "title": "Advanced Features",
+        "content": "Our app includes advanced features like data analytics, real-time updates, and integration with popular third-party tools. You can leverage these features to gain deeper insights, automate routine tasks, and collaborate effectively with your team."
+      },
+      {
+        "title": "Security and Privacy",
+        "content": "We prioritize your security and privacy. Our application employs end-to-end encryption, secure login protocols, and strict data protection policies to ensure your information remains safe and confidential."
+      },
+      {
+        "title": "Customization Options",
+        "content": "The app offers extensive customization options, allowing you to tailor the interface, notifications, and functionality to suit your specific needs. Personalize your experience for maximum efficiency."
+      },
+      {
+        "title": "Performance Optimization",
+        "content": "Our app is optimized for performance, ensuring quick load times, smooth navigation, and minimal resource consumption. Enjoy a seamless experience whether you're on a desktop or a mobile device."
+      },
+      {
+        "title": "Future Updates",
+        "content": "We are committed to continually improving the app. Expect regular updates that bring new features, enhance existing ones, and address any potential issues. Your feedback plays a crucial role in shaping future releases."
+      },
+      {
+        "title": "Community and Support",
+        "content": "Join our growing community of users to share tips, ask questions, and collaborate on innovative solutions. Our support team is always ready to assist you with any queries or challenges you might face."
+      },
+      {
+        "title": "Sustainability Commitment",
+        "content": "We are dedicated to sustainability and minimizing our environmental impact. By using this app, you contribute to reducing paper waste and promoting eco-friendly digital solutions."
+      },
+      {
+        "title": "Github integration on lokalise",
+        "content": "Lokalise provide the integration setups with github to auto sync the chnages and generate translation files"
+      }
+    ]
+  }
 }

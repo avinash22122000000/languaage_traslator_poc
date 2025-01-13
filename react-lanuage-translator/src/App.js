@@ -40,7 +40,7 @@ function App() {
       <h1>{t("main.header")}</h1>
       <p>{t("main.description")}</p>
 
-      {/* <h3>Select Options:</h3>
+      <h3>Select Options:</h3>
       <ul>
         {Object.keys(locales).map((locale) => (
           <li key={locale}>
@@ -94,7 +94,7 @@ function App() {
             </div>
           )
         )}
-      </div> */}
+      </div>
     </div>
   );
 }
