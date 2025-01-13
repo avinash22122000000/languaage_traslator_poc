@@ -26,9 +26,9 @@
                 "value": "जर्मन",
                 "description": "डॉयचे स्प्रेचे के लिए यह विकल्प उपलब्ध है।"
             },
-            "it": {
-                "value": "इतालवी",
-                "description": "लिंगुआ इटालियन के लिए सेलेज़ियोना क्वेस्ट ओपज़ियोन।"
+            "hi_IN": {
+                "value": "",
+                "description": ""
             }
         },
         "informative.paragraphs": [
@@ -76,6 +76,46 @@
                 "title": "लोकलाइज़ पर गिटहब एकीकरण",
                 "content": "लोकलाइज़ परिवर्तनों को स्वचालित रूप से सिंक करने और अनुवाद फ़ाइलें उत्पन्न करने के लिए गिटहब के साथ एकीकरण सेटअप प्रदान करता है"
             }
-        ]
+        ],
+        "form.fields": {
+            "name": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "email": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "password": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "age": {
+                "label": "",
+                "placeholder": "",
+                "description": ""
+            },
+            "gender": {
+                "label": "",
+                "description": "",
+                "options": [
+                    {
+                        "value": "",
+                        "label": ""
+                    },
+                    {
+                        "value": "",
+                        "label": ""
+                    },
+                    {
+                        "value": "",
+                        "label": ""
+                    }
+                ]
+            }
+        }
     }
 }
