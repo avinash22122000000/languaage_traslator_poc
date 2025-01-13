@@ -77,16 +77,5 @@
         "content": "Lokalise provide the integration setups with github to auto sync the chnages and generate translation files"
       }
     ]
-  },
-  "country": {
-    "label": "Country",
-    "description": "Select your country of residence.",
-    "options": [
-      { "value": "us", "label": "United States" },
-      { "value": "fr", "label": "France" },
-      { "value": "de", "label": "Germany" },
-      { "value": "es", "label": "Spain" },
-      { "value": "it", "label": "Italy" }
-    ]
   }
 }
