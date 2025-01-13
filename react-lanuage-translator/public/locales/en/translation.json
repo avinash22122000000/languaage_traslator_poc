@@ -1,6 +1,6 @@
 {
   "main": {
     "header": "Welcome to the app!",
-    "main.description": "This is the app descripton here."
+    "description": "This is the app descripton here."
   }
 }
