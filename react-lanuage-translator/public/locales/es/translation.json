@@ -1,5 +1,13 @@
 {
-  "main": {
-    "header": "¡Bienvenido a la aplicación!"
-  }
+    "welcome_header": "",
+    "welcome": "",
+    "submit": "",
+    "language": "",
+    "translation_demo_86": "",
+    "new key": "",
+    "thank you": "",
+    "main": {
+        "header": "",
+        "main.description": ""
+    }
 }
