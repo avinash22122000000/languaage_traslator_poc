@@ -71,6 +71,10 @@
             {
                 "title": "Compromiso de sostenibilidad",
                 "content": "Nos dedicamos a la sostenibilidad y a minimizar nuestro impacto ambiental. Al usar esta aplicación, contribuyes a reducir el desperdicio de papel y a promover soluciones digitales ecológicas."
+            },
+            {
+                "title": "Integración de Github en lokalise",
+                "content": "Lokalise proporciona las configuraciones de integración con Github para sincronizar automáticamente los cambios y generar archivos de traducción."
             }
         ]
     }
