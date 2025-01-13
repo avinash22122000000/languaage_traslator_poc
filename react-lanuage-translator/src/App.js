@@ -52,27 +52,27 @@ function App() {
 
       <form>
         <div>
-          <label for="name">{t("main.form.fields.name.label")}</label>
+          <label for="name">{t("main.form.name.label")}</label>
           <input
             type="text"
             id="name"
-            placeholder={t("main.form.fields.name.placeholder")}
+            placeholder={t("main.form.name.placeholder")}
           />
-          <p>{t("main.form.fields.name.description")}</p>
+          <p>{t("main.form.name.description")}</p>
         </div>
         <div>
-          <label for="email">{t("main.form.fields.email.label")}</label>
+          <label for="email">{t("main.form.email.label")}</label>
           <input
             type="email"
             id="email"
-            placeholder={t("main.form.fields.email.placeholder")}
+            placeholder={t("main.form.email.placeholder")}
           />
-          <p>{t("main.form.fields.email.description")}</p>
+          <p>{t("main.form.email.description")}</p>
         </div>
         <div>
-          <label for="gender">{t("main.form.fields.gender.label")}</label>
+          <label for="gender">{t("main.form.gender.label")}</label>
           <select id="gender">
-            {t("main.form.fields.gender.options", { returnObjects: true }).map(
+            {t("main.form.gender.options", { returnObjects: true }).map(
               (option) => (
                 <option key={option.value} value={option.value}>
                   {option.label}
@@ -80,7 +80,7 @@ function App() {
               )
             )}
           </select>
-          <p>{t("main.form.fields.gender.description")}</p>
+          <p>{t("main.form.gender.description")}</p>
         </div>
       </form>
 
