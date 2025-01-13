@@ -1,0 +1,13 @@
+{
+    "welcome_header": "Hallo Welt!",
+    "welcome": "Willkommen",
+    "submit": "Einreichen",
+    "language": "Sprache",
+    "translation_demo_86": "Englisch",
+    "new key": "Neuer Schlüssel",
+    "thank you": "Danke",
+    "main": {
+        "header": "Willkommen in der App!",
+        "main.description": "Dies ist die App-Beschreibung hier."
+    }
+}
