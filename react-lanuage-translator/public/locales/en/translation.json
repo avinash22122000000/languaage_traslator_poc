@@ -75,6 +75,10 @@
       {
         "title": "Jira integration on lokalise",
         "content": "Lokalise provide the integration setups with jira cloud when a new translation file created on added reviewer etc."
+      },
+      {
+        "title": "Testing jira intergation with lokalise",
+        "content": "Automaiclly a task should be created and will be show on board"
       }
     ]
   }
