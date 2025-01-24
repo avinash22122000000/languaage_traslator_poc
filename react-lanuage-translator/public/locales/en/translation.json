@@ -71,6 +71,10 @@
       {
         "title": "Github integration on lokalise",
         "content": "Lokalise provide the integration setups with github to auto sync the chnages and generate translation files"
+      },
+      {
+        "title": "Jira integration on lokalise",
+        "content": "Lokalise provide the integration setups with jira cloud when a new translation file created on added reviewer etc."
       }
     ]
   }
