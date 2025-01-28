@@ -68,5 +68,40 @@
                 "content": "Nous sommes attachés au développement durable et à la réduction de notre impact sur l'environnement. En utilisant cette application, vous contribuez à réduire les déchets de papier et à promouvoir des solutions numériques respectueuses de l'environnement."
             }
         ]
+    },
+    "goals_of_app": "Jetez un coup d'œil à votre dossier de crédit SCHUFA. Vérifiez votre score, examinez vos entrées et découvrez des possibilités d'amélioration inattendues. Sûr, rapide et gratuit.",
+    "task_review_desc": "Pour stocker les fichiers traduits, il convient de revoir",
+    "login_heading": "Connexion",
+    "login_no_account": "Ne pas avoir de compte",
+    "login_sign_up": "S'inscrire",
+    "login_email_placeholder": "Courrier électronique",
+    "login_password_placeholder": "Mot de passe",
+    "login_forgot_password": "Mot de passe oublié ?",
+    "login_button": "Connexion",
+    "login_success": "Connexion réussie",
+    "login_failed": "Échec de la connexion",
+    "login_error_retry": "Veuillez réessayer",
+    "signup": {
+        "heading": "S'inscrire",
+        "alreadyHaveAccount": "Vous avez déjà un compte",
+        "signIn": "s'inscrire",
+        "placeholder": {
+            "fullName": "Nom complet",
+            "email": "Courriel",
+            "password": "Mot de passe",
+            "confirmPassword": "Confirmer le mot de passe"
+        },
+        "termsAndConditions": "J'accepte les conditions générales de Goozzby",
+        "privacyNotice": "J'ai lu et compris l'avis de confidentialité et l'accord sur la politique en matière de cookies.",
+        "nextButton": "Suivant",
+        "inputFields": {
+            "address": "Adresse",
+            "businessName": "Nom de l'entreprise",
+            "proofOfResidence": "Preuve de résidence",
+            "companyRegistration": "Enregistrement de l'entreprise",
+            "idDocument": "Document d'identité"
+        },
+        "termsLink": "Conditions générales d'utilisation",
+        "button": "S'inscrire"
     }
 }
