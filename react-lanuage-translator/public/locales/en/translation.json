@@ -1,7 +1,77 @@
 {
+    "welcome_header": "Hello world!",
+    "welcome": "Welcome",
+    "submit": "Submit",
+    "language": "Language",
+    "translation_demo_86": "English",
+    "thank you": "Thank you",
+    "main": {
+        "header": "Welcome to the app!",
+        "description": "This is the app description here.",
+        "select.options": {
+            "en": {
+                "value": "English",
+                "description": "Select this option for English language."
+            },
+            "fr": {
+                "value": "French",
+                "description": "Sélectionnez cette option pour la langue française."
+            },
+            "es": {
+                "value": "Spanish",
+                "description": "Seleccione esta opción para el idioma español."
+            },
+            "de": {
+                "value": "German",
+                "description": "Wählen Sie diese Option für die deutsche Sprache."
+            }
+        },
+        "informative.paragraphs": [
+            {
+                "title": "About the App",
+                "content": "This application is designed to simplify your workflow and enhance productivity with its intuitive design and robust features."
+            },
+            {
+                "title": "Getting Started",
+                "content": "To get started, select your preferred language, explore the options, and familiarize yourself with the interface."
+            },
+            {
+                "title": "Need Help?",
+                "content": "If you encounter any issues or have questions, please visit our Help Center or contact support."
+            },
+            {
+                "title": "Advanced Features",
+                "content": "Our app includes advanced features like data analytics, real-time updates, and integration with popular third-party tools. You can leverage these features to gain deeper insights, automate routine tasks, and collaborate effectively with your team."
+            },
+            {
+                "title": "Security and Privacy",
+                "content": "We prioritize your security and privacy. Our application employs end-to-end encryption, secure login protocols, and strict data protection policies to ensure your information remains safe and confidential."
+            },
+            {
+                "title": "Customization Options",
+                "content": "The app offers extensive customization options, allowing you to tailor the interface, notifications, and functionality to suit your specific needs. Personalize your experience for maximum efficiency."
+            },
+            {
+                "title": "Performance Optimization",
+                "content": "Our app is optimized for performance, ensuring quick load times, smooth navigation, and minimal resource consumption. Enjoy a seamless experience whether you're on a desktop or a mobile device."
+            },
+            {
+                "title": "Future Updates",
+                "content": "We are committed to continually improving the app. Expect regular updates that bring new features, enhance existing ones, and address any potential issues. Your feedback plays a crucial role in shaping future releases."
+            },
+            {
+                "title": "Community and Support",
+                "content": "Join our growing community of users to share tips, ask questions, and collaborate on innovative solutions. Our support team is always ready to assist you with any queries or challenges you might face."
+            },
+            {
+                "title": "Sustainability Commitment",
+                "content": "We are dedicated to sustainability and minimizing our environmental impact. By using this app, you contribute to reducing paper waste and promoting eco-friendly digital solutions."
+            }
+        ]
+    },
+    "goals_of_app": "Take a look at your SCHUFA credit file. Check your score, review your entries and uncover unexpected potential for improvement. Safe, fast and free.",
+    "task_review_desc": "To store tranlated files it should be reviewed",
     "login_heading": "Find Local professionals for pretty much anything",
-    "login_prof": "Login as a Professional",
-    "login_cust": "Login as Customer",
     "login_no_account": "Don’t have an account",
     "login_sign_up": "Sign up",
     "login_email_placeholder": "E mail",
@@ -11,34 +81,35 @@
     "login_success": "Login successful",
     "login_failed": "Login failed",
     "login_error_retry": "Please try again",
+    "signup": {
+        "heading": "Sign Up",
+        "alreadyHaveAccount": "Already have an account",
+        "signIn": "Sign in",
+        "placeholder": {
+            "fullName": "Full Name",
+            "email": "Email",
+            "password": "Password",
+            "confirmPassword": "Confirm Password"
+        },
+        "termsAndConditions": "I agree to the Goozzby Terms and Conditions",
+        "privacyNotice": "I have read and understood the privacy notice and cookie policy agreement.",
+        "nextButton": "Next",
+        "inputFields": {
+            "address": "Address",
+            "businessName": "Business Name",
+            "proofOfResidence": "Proof of Residence",
+            "companyRegistration": "Company Registration",
+            "idDocument": "ID Document"
+        },
+        "termsLink": "Terms and Conditions",
+        "button": "Sign Up",
+        "privacyLink": "Privacy Notice",
+        "cookiePolicyLink": "Cookie Policy"
+    },
+    "login_prof": "Login as a Professional",
+    "login_cust": "Login as Customer",
     "back": "Back",
     "or": "OR",
     "and": "and",
-    "signup": {
-      "heading": "Sign Up",
-      "alreadyHaveAccount": "Already have an account",
-      "signIn": "Sign in",
-      "placeholder": {
-        "fullName": "Full Name",
-        "email": "Email",
-        "password": "Password",
-        "confirmPassword": "Confirm Password"
-      },
-      "termsAndConditions": "I agree to the Goozzby Terms and Conditions",
-      "privacyNotice": "I have read and understood the privacy notice and cookie policy agreement.",
-      "nextButton": "Next",
-      "inputFields": {
-        "address": "Address",
-        "businessName": "Business Name",
-        "proofOfResidence": "Proof of Residence",
-        "companyRegistration": "Company Registration",
-        "idDocument": "ID Document"
-      },
-      "termsLink": "Terms and Conditions",
-      "privacyLink": "Privacy Notice",
-      "cookiePolicyLink": "Cookie Policy",
-      "button": "Sign Up"
-    },
-    "test":" Testing translation"
-  }
-  
+    "test": " Testing translation"
+}
