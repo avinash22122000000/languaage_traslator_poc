@@ -11,23 +11,41 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Lokalise CLI
         run: |
           curl -sfL https://raw.githubusercontent.com/lokalise/lokalise-cli-2-go/master/install.sh | sh
-      - name: Pull
+
+      - name: Pull Translations
         run: |
           ./bin/lokalise2 --token a911e0108d0d4e39c2418b454cce59c71958acb6 --project-id 697988836797282a57d412.26117221 file download --format json --filter-langs=de --original-filenames=true --directory-prefix=/
-      - name: Commit
-        env: 
-          GH_TOKEN: ${{ github.token }}
+
+      - name: Check for Changes
+        id: changes
+        run: |
+          if [[ -z $(git status --untracked-files=no --porcelain) ]]; then
+            echo "::set-output name=has_changes::false"
+          else
+            echo "::set-output name=has_changes::true"
+          fi
+
+      - name: Create New Branch and Commit Changes
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git checkout -b translations-update-$(date +%s)
           git add ./public/locales/*.json
-          if [[ -z $(git status --untracked-files=no --porcelain) ]]
-          then
-            echo "No changes"
-          else
-            git commit -m 'Translations update'
-            git push origin main
-          fi
+          git commit -m 'Translations update'
+          git push origin HEAD
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'Translations update'
+          title: 'Update Translations'
+          body: 'This PR contains updated translations from Lokalise.'
+          branch: 'translations-update-*'
+          base: main
