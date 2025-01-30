@@ -20,6 +20,13 @@ jobs:
         run: |
           ./bin/lokalise2 --token a911e0108d0d4e39c2418b454cce59c71958acb6 --project-id 697988836797282a57d412.26117221 file download --format json --filter-langs=de --original-filenames=true --directory-prefix=/
 
+      - name: Log Downloaded Files
+        run: |
+          echo "Listing downloaded translation files:"
+          ls -R ./public/locales
+          echo "Contents of the downloaded files:"
+          cat ./public/locales/*.json
+
       - name: Check for Changes
         id: changes
         run: |
@@ -30,9 +37,10 @@ jobs:
           fi
 
       - name: Create New Branch and Commit Changes
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
-          git config --global user.name "avinash22122000000"
-          git config --global user.email "avinash@weare86.com"
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git checkout -b translations-update-$(date +%s)
           git add ./public/locales/*.json
           git commit -m 'Translations update'
