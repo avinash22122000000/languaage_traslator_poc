@@ -1,0 +1,117 @@
+{
+    "welcome_header": "Hallo Welt!",
+    "welcome": "Willkommen",
+    "submit": "Einreichen",
+    "language": "Sprache",
+    "translation_demo_86": "Englisch",
+    "thank you": "Danke",
+    "main": {
+        "header": "Willkommen in der App!",
+        "description": "Dies ist die App-Beschreibung hier.",
+        "select.options": {
+            "en": {
+                "value": "Englisch",
+                "description": "Wählen Sie diese Option für die englische Sprache."
+            },
+            "fr": {
+                "value": "Französisch",
+                "description": "Wählen Sie diese Option für die französische Sprache."
+            },
+            "es": {
+                "value": "Spanisch",
+                "description": "Wählen Sie diese Option für die spanische Sprache."
+            },
+            "de": {
+                "value": "Deutsch",
+                "description": "Choose this option for the German language."
+            }
+        },
+        "informative.paragraphs": [
+            {
+                "title": "Über die App",
+                "content": "Diese Anwendung ist darauf ausgelegt, Ihren Arbeitsablauf zu vereinfachen und die Produktivität mit ihrem intuitiven Design und robusten Funktionen zu steigern."
+            },
+            {
+                "title": "Erste Schritte",
+                "content": "Um loszulegen, wählen Sie Ihre bevorzugte Sprache, erkunden Sie die Optionen und machen Sie sich mit der Benutzeroberfläche vertraut."
+            },
+            {
+                "title": "Brauchen Sie Hilfe?",
+                "content": "Wenn Sie auf Probleme stoßen oder Fragen haben, besuchen Sie bitte unser Help Center oder kontaktieren Sie den Support."
+            },
+            {
+                "title": "Erweiterte Funktionen",
+                "content": "Unsere App umfasst fortschrittliche Funktionen wie Datenanalyse, Echtzeit-Updates und die Integration mit beliebten Drittanbieter-Tools. Sie können diese Funktionen nutzen, um tiefere Einblicke zu gewinnen, Routineaufgaben zu automatisieren und effektiv mit Ihrem Team zusammenzuarbeiten."
+            },
+            {
+                "title": "Sicherheit und Datenschutz",
+                "content": "Wir priorisieren Ihre Sicherheit und Privatsphäre. Unsere Anwendung verwendet Ende-zu-Ende-Verschlüsselung, sichere Anmeldeprotokolle und strenge Datenschutzrichtlinien, um sicherzustellen, dass Ihre Informationen sicher und vertraulich bleiben."
+            },
+            {
+                "title": "Anpassungsoptionen",
+                "content": "Die App bietet umfangreiche Anpassungsoptionen, mit denen Sie die Benutzeroberfläche, die Benachrichtigungen und die Funktionen an Ihre speziellen Bedürfnisse anpassen können. Personalisieren Sie Ihr Erlebnis für maximale Effizienz."
+            },
+            {
+                "title": "Optimierung der Leistung",
+                "content": "Unsere App ist für schnelle Ladezeiten, reibungslose Navigation und minimalen Ressourcenverbrauch optimiert. Genießen Sie ein nahtloses Erlebnis, egal ob Sie auf einem Desktop oder einem mobilen Gerät arbeiten."
+            },
+            {
+                "title": "Zukünftige Updates",
+                "content": "Wir sind bestrebt, die App kontinuierlich zu verbessern. Erwarten Sie regelmäßige Updates, die neue Funktionen bringen, bestehende Funktionen verbessern und mögliche Probleme beheben. Ihr Feedback spielt eine entscheidende Rolle bei der Gestaltung zukünftiger Versionen."
+            },
+            {
+                "title": "Gemeinschaft und Unterstützung",
+                "content": "Schließen Sie sich unserer wachsenden Gemeinschaft von Nutzern an, um Tipps auszutauschen, Fragen zu stellen und gemeinsam an innovativen Lösungen zu arbeiten. Unser Support-Team ist immer bereit, Ihnen bei Fragen oder Herausforderungen zu helfen."
+            },
+            {
+                "title": "Nachhaltigkeitsverpflichtung",
+                "content": "Wir haben uns der Nachhaltigkeit und der Minimierung unserer Umweltauswirkungen verschrieben. Durch die Nutzung dieser App tragen Sie dazu bei, Papierabfälle zu reduzieren und umweltfreundliche digitale Lösungen zu fördern."
+            }
+        ]
+    },
+    "goals_of_app": "Werfen Sie einen Blick in Ihre SCHUFA-Kreditakte. Prüfen Sie Ihren Score, schauen Sie sich Ihre Einträge an und decken Sie unerwartete Verbesserungspotenziale auf. Sicher, schnell und kostenlos.",
+    "task_review_desc": "Für die Speicherung von transkribierten Dateien sollte Folgendes überprüft werden",
+    "login_heading": "Anmeldung",
+    "login_no_account": "Sie haben kein Konto",
+    "login_sign_up": "Registrieren Sie sich",
+    "login_email_placeholder": "E-Post",
+    "login_password_placeholder": "Passwort",
+    "login_forgot_password": "Passwort vergessen?",
+    "login_button": "Anmeldung",
+    "login_success": "Anmeldung erfolgreich",
+    "login_failed": "Anmeldung fehlgeschlagen",
+    "login_error_retry": "Bitte versuchen Sie es erneut",
+    "signup": {
+        "heading": "Anmeldung",
+        "alreadyHaveAccount": "Sie haben bereits ein Konto",
+        "signIn": "sich anmelden",
+        "placeholder": {
+            "fullName": "Vollständiger Name",
+            "email": "E-Mail",
+            "password": "Passwort",
+            "confirmPassword": "Bestätigen Sie Ihr Passwort"
+        },
+        "termsAndConditions": "Ich stimme den Allgemeinen Geschäftsbedingungen von Goozzby zu",
+        "privacyNotice": "Ich habe den Datenschutzhinweis und die Cookie-Vereinbarung gelesen und verstanden.",
+        "nextButton": "Weiter",
+        "inputFields": {
+            "address": "Adresse",
+            "businessName": "Name des Unternehmens",
+            "proofOfResidence": "Nachweis des Wohnsitzes",
+            "companyRegistration": "Registrierung des Unternehmens",
+            "idDocument": "ID-Dokument"
+        },
+        "termsLink": "Bedingungen und Konditionen",
+        "button": "Anmeldung",
+        "privacyLink": "Hinweis zum Datenschutz",
+        "cookiePolicyLink": "Cookie-Richtlinie"
+    },
+    "login_prof": "Anmeldung als Fachmann",
+    "login_cust": "Anmeldung als Kunde",
+    "back": "Zurück",
+    "or": "OR",
+    "and": "und",
+    "test": " Prüfung der Übersetzung",
+    "rocky_c": "Rocky ist ein verdammtes Genie",
+    "test2": "Prüfung auf Auto-Push"
+}
