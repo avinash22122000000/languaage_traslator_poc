@@ -30,7 +30,6 @@ jobs:
           fi
 
       - name: Create New Branch and Commit Changes
-        if: steps.changes.outputs.has_changes == 'true'
         run: |
           git config --global user.name "avinash22122000000"
           git config --global user.email "avinash@weare86.com"
