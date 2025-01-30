@@ -1,0 +1,71 @@
+{
+    "language": "Sprache",
+    "main": {
+        "description": "Dies ist die App-Beschreibung hier.",
+        "header": "Willkommen in der App!",
+        "informative.paragraphs": [
+            {
+                "content": "Diese Anwendung ist darauf ausgelegt, Ihren Arbeitsablauf zu vereinfachen und die Produktivität mit ihrem intuitiven Design und robusten Funktionen zu steigern.",
+                "title": "Über die App"
+            },
+            {
+                "content": "Um loszulegen, wählen Sie Ihre bevorzugte Sprache, erkunden Sie die Optionen und machen Sie sich mit der Benutzeroberfläche vertraut.",
+                "title": "Erste Schritte"
+            },
+            {
+                "content": "Wenn Sie auf Probleme stoßen oder Fragen haben, besuchen Sie bitte unser Help Center oder kontaktieren Sie den Support.",
+                "title": "Brauchen Sie Hilfe?"
+            },
+            {
+                "content": "Unsere App umfasst fortschrittliche Funktionen wie Datenanalyse, Echtzeit-Updates und die Integration mit beliebten Drittanbieter-Tools. Sie können diese Funktionen nutzen, um tiefere Einblicke zu gewinnen, Routineaufgaben zu automatisieren und effektiv mit Ihrem Team zusammenzuarbeiten.",
+                "title": "Erweiterte Funktionen"
+            },
+            {
+                "content": "Wir priorisieren Ihre Sicherheit und Privatsphäre. Unsere Anwendung verwendet Ende-zu-Ende-Verschlüsselung, sichere Anmeldeprotokolle und strenge Datenschutzrichtlinien, um sicherzustellen, dass Ihre Informationen sicher und vertraulich bleiben.",
+                "title": "Sicherheit und Datenschutz"
+            },
+            {
+                "content": "Die App bietet umfangreiche Anpassungsoptionen, mit denen Sie die Benutzeroberfläche, die Benachrichtigungen und die Funktionen an Ihre speziellen Bedürfnisse anpassen können. Personalisieren Sie Ihr Erlebnis für maximale Effizienz.",
+                "title": "Anpassungsoptionen"
+            },
+            {
+                "content": "Unsere App ist für schnelle Ladezeiten, reibungslose Navigation und minimalen Ressourcenverbrauch optimiert. Genießen Sie ein nahtloses Erlebnis, egal ob Sie auf einem Desktop oder einem mobilen Gerät arbeiten.",
+                "title": "Optimierung der Leistung"
+            },
+            {
+                "content": "Wir sind bestrebt, die App kontinuierlich zu verbessern. Erwarten Sie regelmäßige Updates, die neue Funktionen bringen, bestehende Funktionen verbessern und mögliche Probleme beheben. Ihr Feedback spielt eine entscheidende Rolle bei der Gestaltung zukünftiger Versionen.",
+                "title": "Zukünftige Updates"
+            },
+            {
+                "content": "Schließen Sie sich unserer wachsenden Gemeinschaft von Nutzern an, um Tipps auszutauschen, Fragen zu stellen und gemeinsam an innovativen Lösungen zu arbeiten. Unser Support-Team ist immer bereit, Ihnen bei Fragen oder Herausforderungen zu helfen.",
+                "title": "Gemeinschaft und Unterstützung"
+            },
+            {
+                "title": "Nachhaltigkeitsverpflichtung"
+            }
+        ],
+        "select.options": {
+            "de": {
+                "description": "Choose this option for the German language.",
+                "value": "Deutsch"
+            },
+            "en": {
+                "description": "Wählen Sie diese Option für die englische Sprache.",
+                "value": "Englisch"
+            },
+            "es": {
+                "description": "Wählen Sie diese Option für die spanische Sprache.",
+                "value": "Spanisch"
+            },
+            "fr": {
+                "description": "Wählen Sie diese Option für die französische Sprache.",
+                "value": "Französisch"
+            }
+        }
+    },
+    "submit": "Einreichen",
+    "thank you": "Danke",
+    "translation_demo_86": "Englisch",
+    "welcome": "Willkommen",
+    "welcome_header": "Hallo Welt!"
+}
