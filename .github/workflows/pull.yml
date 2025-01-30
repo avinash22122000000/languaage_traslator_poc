@@ -25,7 +25,7 @@ jobs:
           echo "Listing downloaded translation files:"
           ls -R ./public/locales
           echo "Contents of the downloaded files:"
-          cat ./public/locales/*.json
+          cat ./public/locales/*/translation.json
 
       - name: Check for Changes
         id: changes
@@ -42,7 +42,7 @@ jobs:
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git checkout -b translations-update-$(date +%s)
-          git add ./public/locales/*.json
+          git add ./public/locales/*/translaion.json
           git commit -m 'Translations update'
           git push origin HEAD
 
