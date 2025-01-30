@@ -39,21 +39,21 @@ jobs:
       - name: Create New Branch and Commit Changes
         if: steps.changes.outputs.has_changes == 'true'
         env:
-          GH_TOKEN: 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  # Use the PAT secret here
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Use the PAT secret here
         run: |
           git config --global user.name "avinash22122000000"
           git config --global user.email "avinash@weare86.com"
           git checkout -b translations-update-$(date +%s)
           git add ./public/locales/*.json
           git commit -m 'Translations update'
-          git remote set-url origin https://x-access-token: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@github.com/avinash22122000000/languaage_traslator_poc.git
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/avinash22122000000/languaage_traslator_poc.git
           git push origin HEAD
 
       - name: Create Pull Request
         if: steps.changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v3
         with:
-          token: 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  # Use the PAT secret here
+          token: ${{ secrets.GH_TOKEN }}  # Use the PAT secret here
           commit-message: 'Translations update'
           title: 'Update Translations'
           body: 'This PR contains updated translations from Lokalise.'
