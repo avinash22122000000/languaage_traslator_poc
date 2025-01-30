@@ -51,6 +51,18 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/avinash22122000000/languaage_traslator_poc.git
           git push origin HEAD
 
+      - name: Verify Branch Exists on Remote
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          echo "Verifying branch exists on remote..."
+          git fetch origin $BRANCH_NAME
+          if git show-ref --verify refs/remotes/origin/$BRANCH_NAME; then
+            echo "Branch $BRANCH_NAME exists on remote."
+          else
+            echo "Branch $BRANCH_NAME does not exist on remote."
+            exit 1
+          fi
+
       - name: Debug Branch and Token
         if: steps.changes.outputs.has_changes == 'true'
         run: |
@@ -67,4 +79,4 @@ jobs:
           title: 'Update Translations'
           body: 'This PR contains updated translations from Lokalise.'
           branch: ${{ env.BRANCH_NAME }}
-          base: main
+          base: main  # Ensure this matches the default branch of your repository
