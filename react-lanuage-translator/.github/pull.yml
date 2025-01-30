@@ -1,0 +1,33 @@
+name: Pull
+run-name: Pull [${{ github.event_name == 'workflow_dispatch' && github.ref_name || github.event.workflow_run.head_branch }}] ${{ github.event.after }}
+on: 
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Push"]
+    types: completed
+jobs:
+  build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch'}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lokalise CLI
+        run: |
+          curl -sfL https://raw.githubusercontent.com/lokalise/lokalise-cli-2-go/master/install.sh | sh
+      - name: Pull
+        run: |
+          ./bin/lokalise2 --token a911e0108d0d4e39c2418b454cce59c71958acb6 --project-id 697988836797282a57d412.26117221 file download --format json --filter-langs=de --original-filenames=true --directory-prefix=/
+      - name: Commit
+        env: 
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add ./public/locales/*.json
+          if [[ -z $(git status --untracked-files=no --porcelain) ]]
+          then
+            echo "No changes"
+          else
+            git commit -m 'Translations update'
+            git push origin main
+          fi
