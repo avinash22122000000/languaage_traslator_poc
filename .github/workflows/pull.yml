@@ -41,7 +41,7 @@ jobs:
           git config --global user.name "avinash22122000000"
           git config --global user.email "avinash@weare86.com"
           git checkout -b translations-update-$(date +%s)
-          git add ./public/locales/*/translaion.json
+          git add ./public/locales/*/translation.json
           git commit -m 'Translations update'
           git push origin HEAD
 
