@@ -68,5 +68,48 @@
                 "content": "Wir haben uns der Nachhaltigkeit und der Minimierung unserer Umweltauswirkungen verschrieben. Durch die Nutzung dieser App tragen Sie dazu bei, Papierabfälle zu reduzieren und umweltfreundliche digitale Lösungen zu fördern."
             }
         ]
-    }
+    },
+    "goals_of_app": "Werfen Sie einen Blick in Ihre SCHUFA-Kreditakte. Prüfen Sie Ihren Score, schauen Sie sich Ihre Einträge an und decken Sie unerwartete Verbesserungspotenziale auf. Sicher, schnell und kostenlos.",
+    "task_review_desc": "Für die Speicherung von transkribierten Dateien sollte Folgendes überprüft werden",
+    "login_heading": "Anmeldung",
+    "login_no_account": "Sie haben kein Konto",
+    "login_sign_up": "Registrieren Sie sich",
+    "login_email_placeholder": "E-Post",
+    "login_password_placeholder": "Passwort",
+    "login_forgot_password": "Passwort vergessen?",
+    "login_button": "Anmeldung",
+    "login_success": "Anmeldung erfolgreich",
+    "login_failed": "Anmeldung fehlgeschlagen",
+    "login_error_retry": "Bitte versuchen Sie es erneut",
+    "signup": {
+        "heading": "Anmeldung",
+        "alreadyHaveAccount": "Sie haben bereits ein Konto",
+        "signIn": "sich anmelden",
+        "placeholder": {
+            "fullName": "Vollständiger Name",
+            "email": "E-Mail",
+            "password": "Passwort",
+            "confirmPassword": "Bestätigen Sie Ihr Passwort"
+        },
+        "termsAndConditions": "Ich stimme den Allgemeinen Geschäftsbedingungen von Goozzby zu",
+        "privacyNotice": "Ich habe den Datenschutzhinweis und die Cookie-Vereinbarung gelesen und verstanden.",
+        "nextButton": "Weiter",
+        "inputFields": {
+            "address": "Adresse",
+            "businessName": "Name des Unternehmens",
+            "proofOfResidence": "Nachweis des Wohnsitzes",
+            "companyRegistration": "Registrierung des Unternehmens",
+            "idDocument": "ID-Dokument"
+        },
+        "termsLink": "Bedingungen und Konditionen",
+        "button": "Anmeldung",
+        "privacyLink": "Hinweis zum Datenschutz",
+        "cookiePolicyLink": "Cookie-Richtlinie"
+    },
+    "login_prof": "Anmeldung als Fachmann",
+    "login_cust": "Anmeldung als Kunde",
+    "back": "Zurück",
+    "or": "OR",
+    "and": "und",
+    "test": " Prüfung der Übersetzung"
 }

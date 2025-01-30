@@ -68,5 +68,48 @@
                 "content": "Estamos comprometidos con la sostenibilidad y la minimización de nuestro impacto ambiental. Al utilizar esta aplicación, contribuyes a reducir los residuos de papel y a promover soluciones digitales respetuosas con el medio ambiente."
             }
         ]
-    }
+    },
+    "goals_of_app": "Eche un vistazo a su expediente de crédito SCHUFA. Compruebe su puntuación, revise sus anotaciones y descubra posibilidades inesperadas de mejora. Seguro, rápido y gratuito.",
+    "task_review_desc": "Para almacenar los archivos tranlated debe ser revisado",
+    "login_heading": "Inicio de sesión",
+    "login_no_account": "No tiene cuenta",
+    "login_sign_up": "Inscríbete",
+    "login_email_placeholder": "Correo electrónico",
+    "login_password_placeholder": "Contraseña",
+    "login_forgot_password": "¿Ha olvidado su contraseña?",
+    "login_button": "Inicio de sesión",
+    "login_success": "Inicio de sesión correcto",
+    "login_failed": "Error de inicio de sesión",
+    "login_error_retry": "Por favor, inténtelo de nuevo",
+    "signup": {
+        "heading": "Inscribirse",
+        "alreadyHaveAccount": "Ya tiene una cuenta",
+        "signIn": "iniciar sesión",
+        "placeholder": {
+            "fullName": "Nombre y apellidos",
+            "email": "Correo electrónico",
+            "password": "Contraseña",
+            "confirmPassword": "Confirmar contraseña"
+        },
+        "termsAndConditions": "Acepto los Términos y Condiciones de Goozzby",
+        "privacyNotice": "He leído y comprendido el aviso de privacidad y el acuerdo sobre la política de cookies.",
+        "nextButton": "Siguiente",
+        "inputFields": {
+            "address": "Dirección",
+            "businessName": "Nombre comercial",
+            "proofOfResidence": "Prueba de residencia",
+            "companyRegistration": "Registro Mercantil",
+            "idDocument": "Documento de identidad"
+        },
+        "termsLink": "Condiciones generales",
+        "button": "Inscribirse",
+        "privacyLink": "Confidencialidad",
+        "cookiePolicyLink": "Política de cookies"
+    },
+    "login_prof": "Iniciar sesión como profesional",
+    "login_cust": "Iniciar sesión como cliente",
+    "back": "Volver",
+    "or": "O",
+    "and": "y",
+    "test": " Pruebas de traducción"
 }
