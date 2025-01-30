@@ -78,5 +78,5 @@ jobs:
           commit-message: 'Translations update'
           title: 'Update Translations'
           body: 'This PR contains updated translations from Lokalise.'
-          branch: ${{ env.BRANCH_NAME }}
+          branch: $BRANCH_NAME
           base: main  # Ensure this matches the default branch of your repository
