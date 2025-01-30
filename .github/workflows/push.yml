@@ -1,0 +1,49 @@
+name: Push
+run-name: Push [${{ github.ref_name }}] ${{ github.event.after }}
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "public/locales/**en.json"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Lokalise CLI
+        run: |
+          curl -sfL https://raw.githubusercontent.com/lokalise/lokalise-cli-2-go/master/install.sh | sh
+
+      - name: Push Translations to Lokalise
+        env:
+          VAR_LOKALISE_API_TOKEN: a911e0108d0d4e39c2418b454cce59c71958acb6
+          VAR_LOKALISE_PROJECT_ID: 697988836797282a57d412.26117221
+          ENV_LOKALISE_SOURCE_LANG_ISO: en
+        run: |
+          MODIFIED_FILES=$(git diff --name-only HEAD~1 HEAD -- 'public/locales/**en.json')
+          if [ -z "$MODIFIED_FILES" ]; then
+            echo "No modified English JSON files to push. Exiting."
+            exit 0
+          fi
+          for file in $MODIFIED_FILES; do
+            if [ -f "$file" ]; then
+              ./bin/lokalise2 --token a911e0108d0d4e39c2418b454cce59c71958acb6 \
+                --project-id 697988836797282a57d412.26117221 \
+                file upload --file="$file" \
+                --lang-iso en \
+                --replace-modified --include-path --use-automations=true \
+                --cleanup-mode --poll-timeout 120s
+            fi
+          done
+
+      - name: Trigger Pull Workflow
+        run: |
+          gh workflow run Pull.yml
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
