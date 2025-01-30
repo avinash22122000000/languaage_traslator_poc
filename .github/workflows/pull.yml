@@ -38,6 +38,8 @@ jobs:
 
       - name: Create New Branch and Commit Changes
         if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: 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  # Use the PAT secret here
         run: |
           git config --global user.name "avinash22122000000"
           git config --global user.email "avinash@weare86.com"
@@ -50,7 +52,7 @@ jobs:
         if: steps.changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: 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  # Use the PAT secret here
           commit-message: 'Translations update'
           title: 'Update Translations'
           body: 'This PR contains updated translations from Lokalise.'
