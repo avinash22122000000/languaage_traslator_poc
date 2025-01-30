@@ -46,6 +46,7 @@ jobs:
           git checkout -b translations-update-$(date +%s)
           git add ./public/locales/*.json
           git commit -m 'Translations update'
+          git remote set-url origin https://x-access-token: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@github.com/languaage_traslator_poc.git
           git push origin HEAD
 
       - name: Create Pull Request
