@@ -1,0 +1,22 @@
+{
+    "and": "und",
+    "back": "Zurück",
+    "login_cust": "Anmeldung als Kunde",
+    "login_prof": "Anmeldung als Fachmann",
+    "main": {
+        "informative.paragraphs": {
+            "9": {
+                "content": "Wir haben uns der Nachhaltigkeit und der Minimierung unserer Umweltauswirkungen verschrieben. Durch die Nutzung dieser App tragen Sie dazu bei, Papierabfälle zu reduzieren und umweltfreundliche digitale Lösungen zu fördern."
+            }
+        }
+    },
+    "or": "OR",
+    "rocky_c": "Rocky ist ein verdammtes Genie",
+    "signup": {
+        "cookiePolicyLink": "Cookie-Richtlinie",
+        "privacyLink": "Hinweis zum Datenschutz"
+    },
+    "task_review_desc": "Für die Speicherung von transkribierten Dateien sollte Folgendes überprüft werden",
+    "test": " Prüfung der Übersetzung",
+    "test2": "Prüfung auf Auto-Push"
+}
