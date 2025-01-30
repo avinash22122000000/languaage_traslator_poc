@@ -32,8 +32,8 @@ jobs:
       - name: Create New Branch and Commit Changes
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          git config --global user.name "${GITHUB_ACTOR}"
-          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config --global user.name "avinash22122000000"
+          git config --global user.email "avinash@weare86.com"
           git checkout -b translations-update-$(date +%s)
           git add ./public/locales/*.json
           git commit -m 'Translations update'
