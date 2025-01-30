@@ -1,0 +1,35 @@
+{
+    "login_button": "Anmeldung",
+    "login_email_placeholder": "E-Post",
+    "login_error_retry": "Bitte versuchen Sie es erneut",
+    "login_failed": "Anmeldung fehlgeschlagen",
+    "login_forgot_password": "Passwort vergessen?",
+    "login_heading": "Anmeldung",
+    "login_no_account": "Sie haben kein Konto",
+    "login_password_placeholder": "Passwort",
+    "login_sign_up": "Registrieren Sie sich",
+    "login_success": "Anmeldung erfolgreich",
+    "signup": {
+        "alreadyHaveAccount": "Sie haben bereits ein Konto",
+        "button": "Anmeldung",
+        "heading": "Anmeldung",
+        "inputFields": {
+            "address": "Adresse",
+            "businessName": "Name des Unternehmens",
+            "companyRegistration": "Registrierung des Unternehmens",
+            "idDocument": "ID-Dokument",
+            "proofOfResidence": "Nachweis des Wohnsitzes"
+        },
+        "nextButton": "Weiter",
+        "placeholder": {
+            "confirmPassword": "Bestätigen Sie Ihr Passwort",
+            "email": "E-Mail",
+            "fullName": "Vollständiger Name",
+            "password": "Passwort"
+        },
+        "privacyNotice": "Ich habe den Datenschutzhinweis und die Cookie-Vereinbarung gelesen und verstanden.",
+        "signIn": "sich anmelden",
+        "termsAndConditions": "Ich stimme den Allgemeinen Geschäftsbedingungen von Goozzby zu",
+        "termsLink": "Bedingungen und Konditionen"
+    }
+}
