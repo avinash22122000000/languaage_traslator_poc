@@ -80,3 +80,5 @@ jobs:
           body: 'This PR contains updated translations from Lokalise.'
           branch: ${{ env.BRANCH_NAME }}
           base: main  # Ensure this matches the default branch of your repository
+          draft: false
+          delete-branch: false
