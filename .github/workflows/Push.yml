@@ -4,12 +4,9 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - dev  
+      - dev  # Trigger only on the 'dev' branch
     paths:
-      - "public/locales/**en.json"
-      - "public/locales/**de.json"
-      - "public/locales/**es.json"
-      - "public/locales/**fr.json"
+      - "public/locales/**en.json"  # Trigger only when 'en.json' is modified
 
 jobs:
   build:
@@ -36,10 +33,10 @@ jobs:
       - name: Push Translations to Lokalise
         env:
           VAR_LOKALISE_API_TOKEN: a911e0108d0d4e39c2418b454cce59c71958acb6
-          VAR_LOKALISE_PROJECT_ID: 697988836797282a57d412.26117221
+          VAR_LOKALISE_PROJECT_ID: 11550101679c6d6fa79760.22992113
         run: |
           # Define the languages to process
-          LANGUAGES=("en" "de" "es" "fr")
+          LANGUAGES=("en")  # Only process 'en' since the workflow triggers on 'en.json'
 
           for LANG in "${LANGUAGES[@]}"; do
             echo "Processing language: $LANG"
