@@ -6,7 +6,7 @@ on:
     branches:
       - dev  # Trigger only on the 'dev' branch
     paths:
-      - "public/locales/en.json"  # Trigger only when 'en.json' is modified
+      - "public/locales/**en.json"  # Trigger only when 'en.json' is modified
 
 jobs:
   build:
