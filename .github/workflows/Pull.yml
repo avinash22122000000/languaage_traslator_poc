@@ -21,7 +21,7 @@ jobs:
           ./bin/lokalise2 --token a911e0108d0d4e39c2418b454cce59c71958acb6 \
             --project-id 11550101679c6d6fa79760.22992113 \
             file download --format json \
-            --original-filenames=true --directory-prefix=./public/locales/*.json
+            --original-filenames=true --directory-prefix=./public/locales
 
       - name: Log Downloaded Files
         run: |
