@@ -1,17 +1,5 @@
 
 {
-    "contact_us": "Get in touch with us for collaboration and business inquiries.",
-    "footer_copy": "© 2025 Tech Solutions. All rights reserved.",
-    "navigation_about": "About Us",
-    "navigation_contact": "Contact",
-    "navigation_home": "Home",
-    "navigation_services": "Services",
-    "website_description": "We offer cutting-edge technology solutions to help your business grow.",
-    "website_title": "Welcome to Our Tech Solutions",
-    "hello": "Hello World",
-    "login_forgot_password": "Forgot Password?",
-    "login_button": "Login",
-    "login_success": "Login successful",
-    "login_failed": "Login failed",
-    "name": "test if this work again again again"
+    "testing": "Get auto generated translation"
+
 }

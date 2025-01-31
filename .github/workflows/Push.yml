@@ -36,7 +36,7 @@ jobs:
           VAR_LOKALISE_PROJECT_ID: 697988836797282a57d412.26117221
         run: |
           # Define the languages to process
-          LANGUAGES=("en")  # Only process 'en' since the workflow triggers on 'en.json'
+          LANGUAGES=("en" "de" "es" "fr")  # Only process 'en' since the workflow triggers on 'en.json'
 
           for LANG in "${LANGUAGES[@]}"; do
             echo "Processing language: $LANG"
