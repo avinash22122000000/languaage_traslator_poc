@@ -52,8 +52,14 @@ jobs:
             fi
           done
 
+      - name: Debug Repository and Workflow
+        run: |
+          echo "Repository: $GITHUB_REPOSITORY"
+          echo "Workflow Directory: .github/workflows/"
+          ls -la .github/workflows/
+
       - name: Trigger Pull Workflow
         run: |
-          gh workflow run Pull.yml
+          gh workflow run .github/workflows/Pull.yml
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
