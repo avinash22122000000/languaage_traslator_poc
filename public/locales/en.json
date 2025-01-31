@@ -13,5 +13,5 @@
     "login_button": "Login",
     "login_success": "Login successful",
     "login_failed": "Login failed",
-    "login_error_retry": "Please try again",
+    "login_error_retry": "Please try again"
 }
