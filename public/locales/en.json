@@ -1,5 +1,12 @@
+
 {
-    "services": "We provide software development and data services. And Marketing ",
-    "team":"We have team of software developer, testers, dev operations,  maketing, sales and management ",
-    "location": "We are based on Gurgaon and Banglore , India."
+    "contact_us": "Get in touch with us for collaboration and business inquiries.",
+    "footer_copy": "© 2025 Tech Solutions. All rights reserved.",
+    "navigation_about": "About Us",
+    "navigation_contact": "Contact",
+    "navigation_home": "Home",
+    "navigation_services": "Services",
+    "website_description": "We offer cutting-edge technology solutions to help your business grow.",
+    "website_title": "Welcome to Our Tech Solutions",
+    "hello": "Hello World"
 }
