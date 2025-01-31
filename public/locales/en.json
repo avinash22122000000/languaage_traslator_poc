@@ -12,5 +12,6 @@
     "login_forgot_password": "Forgot Password?",
     "login_button": "Login",
     "login_success": "Login successful",
-    "login_failed": "Login failed"
+    "login_failed": "Login failed",
+    "name": "test if this work"
 }

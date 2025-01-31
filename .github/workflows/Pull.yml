@@ -16,19 +16,12 @@ jobs:
         run: |
           curl -sfL https://raw.githubusercontent.com/lokalise/lokalise-cli-2-go/master/install.sh | sh
 
-      # - name: Pull Translations
-      #   run: |
-      #     ./bin/lokalise2 --token a911e0108d0d4e39c2418b454cce59c71958acb6 \
-      #       --project-id 697988836797282a57d412.26117221 \
-      #       file download --format json \
-      #       --original-filenames=true --directory-prefix=./public/locales
-
       - name: Pull Translations
         run: |
           ./bin/lokalise2 --token a911e0108d0d4e39c2418b454cce59c71958acb6 \
             --project-id 697988836797282a57d412.26117221 \
             file download --format json \
-            --original-filenames=true --directory-prefix=public/locales --unzip-to=public/locales
+            --original-filenames=true --directory-prefix= /public/locales
 
       - name: Log Downloaded Files
         run: |
